@@ -3,4 +3,36 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
+
+.body p{
+  width: 100%;
+  text-align: center;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.text{
+  text-align: center;
+}
+
+.textBold{
+  font-weight: bold;
+}
+
+.redes{
+  margin-bottom: 20px;
+}
+
+.redes a{
+  margin: 10px;
+}
+

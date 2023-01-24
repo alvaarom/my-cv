@@ -12,8 +12,8 @@ export default function Certificates() {
       <HeaderNavbar />
       <Container className="certificates">
         <h4>Certificados</h4>
-        {map(certificates, (certificate) => (
-          <CertificatesCard data={certificate} />
+        {map(certificates, (certificate, index) => (
+          <CertificatesCard key={index} data={certificate} />
         ))}
       </Container>
     </>
